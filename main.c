@@ -14,8 +14,6 @@ int pid = 0;
 // имя области разделяемой памяти
 const char *shar_object = "/posix-shar-object";
 
-int *honey_portions = 0; // указатель на разделямую память
-
 // имя семафора для первого отдела
 const char *first_sem_name = "/first-department-semaphore";
 sem_t *first; // указатель на семафор
